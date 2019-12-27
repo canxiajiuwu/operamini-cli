@@ -1,0 +1,76 @@
+//公用的css
+
+body{
+  width: 10rem;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  font-family:Arial,"Helvetica Neue" , BlinkMacSystemFont, "PingFang SC",-apple-system,STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 12px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+a:hover, a:visited, a:link, a:active {
+  color:white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+input::placeholder{
+  color: #acacac;
+  font-size: 16px;
+}
+
+input{
+  font-size: 16px;
+}
+
+.page-back{
+  width: 10rem;
+  height: 40rem/36;
+  padding: 0 15rem/36;
+  box-sizing: border-box;
+  background-color: #3176CC;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+
+
+  .backIcon{
+    width: 12rem/36;
+    height: 20rem/36;
+    background-image: url("../img/icon/back.png.webp");
+    background-size: 100% 100%;
+  }
+
+  .backWord{
+    color: white;
+    font-size: 14px;
+    padding-left: 5rem/36;
+  }
+}
